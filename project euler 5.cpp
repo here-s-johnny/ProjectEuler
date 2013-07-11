@@ -20,7 +20,7 @@ bool ifEvenly(int number)
 
 int main()
 {
-    int counter = 20;
+    int counter = 2520;
     bool weGotIt = false;
     while (!weGotIt)
     {
@@ -30,7 +30,7 @@ int main()
         }
         else
         {
-            ++counter;
+            counter = counter + 140; //the number has to be divisible by 20 and by 7 (among others ofc)
         }
     }
     std::cout << counter;
